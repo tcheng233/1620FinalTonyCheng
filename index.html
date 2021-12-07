@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+  <!-- your css -->
+  <link rel="stylesheet" href="CSS/style.css">
+  <!-- your JavaScript file, something is missing -->
+  <script src="JS/script.js"></script>
+  <title>FakeCO</title>
+</head>
+<body class="light-theme">
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <input class="toggle" type="checkbox" />
+        </li>
+        <li><a href="#main">Home</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="main">
+    <h1>Super Fake Company</h1>
+  </section>
+  <section id="contact">
+    <h2>Send Us a Fake Message</h2>
+    <form class="myForm">
+      <div class="message">
+        <label for="msg">Message</label>
+        <textarea id="msg"></textarea>
+      </div>
+      <div class="contact">
+        <label for="name">Name</label>
+        <input type="text" id="name">
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email">
+
+        <button type="submit" id="frm-btn">Submit</button>
+      </div>
+    </form>
+  </section>
+</body>
+</html>
