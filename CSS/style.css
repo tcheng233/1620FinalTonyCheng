@@ -198,3 +198,21 @@ input[type=text]:focus {
  background: var(--darkGreen);
  color: var(--white);
 }
+
+@media only screen and (max-width: 600px) {
+  h1, h2 {
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .myForm {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+  }
+  .message {
+    order: 1;
+    height: 16rem;
+  }
+}
