@@ -24,8 +24,7 @@ submit.addEventListener("click",(e)=>{
 
     const submitObj = {
         email : emailInput.value ,
-        name : nameInput.value ,
-        service: "Some service, facial transmogrification", 
+        name : nameInput.value , 
         message: msgInput.value
     }
 
