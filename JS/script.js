@@ -13,3 +13,21 @@ toggle.addEventListener("click",(e)=>{
 
 
 })
+
+const submit = document.querySelector("#frm-btn")
+
+submit.addEventListener("click",(e)=>{
+    const emailInput = document.querySelector("#email")
+    const nameInput = document.querySelector("#name")
+    const msgInput = document.querySelector("#msg")
+    
+
+    const submitObj = {
+        email : emailInput.value ,
+        name : nameInput.value ,
+        service: "Some service, facial transmogrification", 
+        message: msgInput.value
+    }
+
+    console.log(submitObj)
+})
